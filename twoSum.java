@@ -8,8 +8,8 @@ class Solution {
 	    Integer index = map.get(target-nums[i]);
 	    if (index != null) {
 	    return new int[]{index, i};
-	}
-        map.put(nums[i], i);
+	    }
+            map.put(nums[i], i);
         }   
         return new int[0];
     }    
