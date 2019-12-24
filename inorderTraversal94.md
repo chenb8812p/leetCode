@@ -1,3 +1,4 @@
+````java
 public List<Integer> inorderTraversal1(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
@@ -12,7 +13,9 @@ public List<Integer> inorderTraversal1(TreeNode root) {
         }
         return resultList;
 }
-
+````
+----
+````java
  public List<Integer> inorderTraversal2(TreeNode root) {
         if (root == null) {
             return new ArrayList<>();
@@ -33,10 +36,10 @@ public List<Integer> inorderTraversal1(TreeNode root) {
 
         return resultList;
     }
-
+````
 ------Morris
 
-
+````java
     public List<Integer> travel(TreeNode root) {
         List<Integer> resultList = new ArrayList<>();
         if (root == null) {
@@ -75,3 +78,4 @@ public List<Integer> inorderTraversal1(TreeNode root) {
         return pre;
     }
 
+````
