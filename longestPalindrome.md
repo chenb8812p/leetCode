@@ -1,3 +1,4 @@
+```java
 public String longestPalindrome(String s) {
         if ("".equals(s)) {
             return "";
@@ -39,3 +40,4 @@ public String longestPalindrome(String s) {
         String result = String.valueOf(Arrays.copyOfRange(newArr, maxIndex - p[maxIndex] + 1, maxIndex + p[maxIndex]));
         return result.replace("#", "").replace("$", "");
     }
+    ```
